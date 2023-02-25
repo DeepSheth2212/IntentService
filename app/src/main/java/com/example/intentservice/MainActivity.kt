@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         start.setOnClickListener {
             val intent  = Intent(this,MyIntentService::class.java)
-            startService(intent)
+            startService(intent) // to start service
             textView.setText("Service Running!!!")
         }
 
