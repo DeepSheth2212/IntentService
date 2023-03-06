@@ -22,8 +22,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service android:name="com.example.MyService"/>
         <service android:name="com.MyIntentService"
             tools:ignore="Instantiatable" />
+
     </application>
 
 </manifest>
